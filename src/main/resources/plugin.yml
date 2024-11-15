@@ -1,0 +1,21 @@
+name: Client2
+version: '1.0-SNAPSHOT'
+main: com.sa1f.client2.Client2
+api-version: '1.21'
+commands:
+  watch:
+  unwatch:
+  canfly:
+    permission: canfly.use
+  potionstate:
+    permission: potionstate.use
+  openinv:
+    permission: openinv.use
+
+permissions:
+    openinv.use:
+        default: false
+    potionstate.use:
+        default: false
+    canfly.use:
+        default: false
